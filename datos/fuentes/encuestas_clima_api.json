@@ -1,0 +1,1164 @@
+{
+  "api": {
+    "nombre": "HR Climate Survey API",
+    "version": "1.0",
+    "endpoint_simulado": "/api/v1/encuestas-clima",
+    "metodo": "GET",
+    "descripcion": "Encuestas de clima laboral y retroalimentación del personal con contexto geográfico laboral sintético."
+  },
+  "metadata": {
+    "fecha_generacion": "2026-10-04T11:25:00-06:00",
+    "total_registros": 42,
+    "escala_respuestas": "1 a 5",
+    "datos_sinteticos": true,
+    "clave_integracion": "empleado_id",
+    "datos_geograficos_sinteticos": true,
+    "campos_geograficos": [
+      "pais",
+      "departamento",
+      "municipio",
+      "distrito",
+      "direccion_referencia",
+      "latitud",
+      "longitud",
+      "zona"
+    ],
+    "observacion_calidad": "La fuente contiene inconsistencias controladas, valores fuera de escala, coordenadas faltantes y duplicados para prácticas de calidad de datos."
+  },
+  "data": [
+    {
+      "encuesta_id": "ENC0001",
+      "empleado_id": "EMP001",
+      "fecha": "2026-06-04",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 2,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 3
+      },
+      "comentario_abierto": "El ambiente es aceptable; espero más oportunidades de capacitación.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED001",
+        "pais": "El Salvador",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador Centro",
+        "distrito": "San Salvador",
+        "direccion_referencia": "Centro de San Salvador, San Salvador, El Salvador",
+        "latitud": 13.681363,
+        "longitud": -89.226416,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0002",
+      "empleado_id": "EMP002",
+      "fecha": "2026-06-07",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED001",
+        "pais": "El Salvador",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador Centro",
+        "distrito": "San Salvador",
+        "direccion_referencia": "Centro de San Salvador, San Salvador, El Salvador",
+        "latitud": 13.671427,
+        "longitud": -89.204773,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0003",
+      "empleado_id": "EMP003",
+      "fecha": "2026-06-13",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 3,
+        "relacion_con_jefatura": 2,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "Cumplo mis funciones, pero necesito mayor claridad en algunas prioridades.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED002",
+        "pais": "El Salvador",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad Sur",
+        "distrito": "Santa Tecla",
+        "direccion_referencia": "Centro de Santa Tecla, La Libertad, El Salvador",
+        "latitud": 13.66161,
+        "longitud": -89.274635,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0004",
+      "empleado_id": "EMP004",
+      "fecha": "2026-06-19",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 1,
+        "relacion_con_jefatura": 3,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 1
+      },
+      "comentario_abierto": "No tengo claridad sobre mis posibilidades de crecimiento.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED002",
+        "pais": "El Salvador",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad Sur",
+        "distrito": "Santa Tecla",
+        "direccion_referencia": "Centro de Santa Tecla, La Libertad, El Salvador",
+        "latitud": 13.675859,
+        "longitud": -89.273691,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0005",
+      "empleado_id": "EMP005",
+      "fecha": "2026-06-05",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 5,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "Tengo oportunidades de aprendizaje y deseo continuar en la organización.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED003",
+        "pais": "El Salvador",
+        "departamento": "Santa Ana",
+        "municipio": "Santa Ana Centro",
+        "distrito": "Santa Ana",
+        "direccion_referencia": "Centro de Santa Ana, Santa Ana, El Salvador",
+        "latitud": 14.012323,
+        "longitud": -89.568194,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0006",
+      "empleado_id": "EMP006",
+      "fecha": "2026-06-17",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 1,
+        "relacion_con_jefatura": 1,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 1,
+        "intencion_de_permanecer": 2
+      },
+      "comentario_abierto": "No tengo claridad sobre mis posibilidades de crecimiento.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED003",
+        "pais": "El Salvador",
+        "departamento": "Santa Ana",
+        "municipio": "Santa Ana Centro",
+        "distrito": "Santa Ana",
+        "direccion_referencia": "Centro de Santa Ana, Santa Ana, El Salvador",
+        "latitud": 13.993156,
+        "longitud": -89.567812,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0007",
+      "empleado_id": "EMP007",
+      "fecha": "2026-06-13",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 5,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "Me siento valorado por mi equipo y tengo claridad sobre mis objetivos.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED004",
+        "pais": "El Salvador",
+        "departamento": "San Miguel",
+        "municipio": "San Miguel Centro",
+        "distrito": "San Miguel",
+        "direccion_referencia": "Centro de San Miguel, San Miguel, El Salvador",
+        "latitud": null,
+        "longitud": null,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0008",
+      "empleado_id": "EMP008",
+      "fecha": "2026-06-04",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 4,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "Tengo oportunidades de aprendizaje y deseo continuar en la organización.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED004",
+        "pais": "El Salvador",
+        "departamento": "San Miguel",
+        "municipio": "San Miguel Centro",
+        "distrito": "San Miguel",
+        "direccion_referencia": "Centro de San Miguel, San Miguel, El Salvador",
+        "latitud": 13.491173,
+        "longitud": -88.167356,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0009",
+      "empleado_id": "EMP009",
+      "fecha": "2026-06-28",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "Tengo oportunidades de aprendizaje y deseo continuar en la organización.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED005",
+        "pais": "El Salvador",
+        "departamento": "Sonsonate",
+        "municipio": "Sonsonate Centro",
+        "distrito": "Sonsonate",
+        "direccion_referencia": "Centro de Sonsonate, Sonsonate, El Salvador",
+        "latitud": 13.716935,
+        "longitud": -89.748513,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0010",
+      "empleado_id": "EMP010",
+      "fecha": "2026-06-17",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 4,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED005",
+        "pais": "El Salvador",
+        "departamento": "Sonsonate",
+        "municipio": "Sonsonate Centro",
+        "distrito": "Sonsonate",
+        "direccion_referencia": "Centro de Sonsonate, Sonsonate, El Salvador",
+        "latitud": 13.696152,
+        "longitud": -89.726862,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0011",
+      "empleado_id": "EMP011",
+      "fecha": "2026-06-23",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "Me siento valorado por mi equipo y tengo claridad sobre mis objetivos.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED001",
+        "pais": "El Salvador",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador Centro",
+        "distrito": "San Salvador",
+        "direccion_referencia": "Centro de San Salvador, San Salvador, El Salvador",
+        "latitud": 13.684206,
+        "longitud": -89.218814,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0012",
+      "empleado_id": "EMP012",
+      "fecha": "2026-06-17",
+      "canal": "aplicación móvil ",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 3
+      },
+      "comentario_abierto": "Cumplo mis funciones, pero necesito mayor claridad en algunas prioridades.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED002",
+        "pais": "El Salvador",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad Sur",
+        "distrito": "Santa Tecla",
+        "direccion_referencia": "Centro de Santa Tecla, La Libertad, El Salvador",
+        "latitud": 13.664689,
+        "longitud": -89.273666,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0013",
+      "empleado_id": "EMP013",
+      "fecha": "2026-06-05",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 2,
+        "relacion_con_jefatura": 1,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 1,
+        "intencion_de_permanecer": 1
+      },
+      "comentario_abierto": "No tengo claridad sobre mis posibilidades de crecimiento.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED006",
+        "pais": "El Salvador",
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán Centro",
+        "distrito": "Ahuachapán",
+        "direccion_referencia": "Centro de Ahuachapán, Ahuachapán, El Salvador",
+        "latitud": 13.919675,
+        "longitud": -89.843553,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0014",
+      "empleado_id": "EMP014",
+      "fecha": "2026-06-09",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 4,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "Cumplo mis funciones, pero necesito mayor claridad en algunas prioridades.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED007",
+        "pais": "El Salvador",
+        "departamento": "La Paz",
+        "municipio": "La Paz Este",
+        "distrito": "Zacatecoluca",
+        "direccion_referencia": "Centro de Zacatecoluca, La Paz, El Salvador",
+        "latitud": null,
+        "longitud": null,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0015",
+      "empleado_id": "EMP015",
+      "fecha": "2026-06-02",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 3,
+        "relacion_con_jefatura": 3,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "El ambiente es aceptable; espero más oportunidades de capacitación.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED008",
+        "pais": "El Salvador",
+        "departamento": "Usulután",
+        "municipio": "Usulután Este",
+        "distrito": "Usulután",
+        "direccion_referencia": "Centro de Usulután, Usulután, El Salvador",
+        "latitud": 13.345475,
+        "longitud": -88.452822,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0016",
+      "empleado_id": "EMP016",
+      "fecha": "2026-06-07",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED009",
+        "pais": "El Salvador",
+        "departamento": "Cuscatlán",
+        "municipio": "Cuscatlán Sur",
+        "distrito": "Cojutepeque",
+        "direccion_referencia": "Centro de Cojutepeque, Cuscatlán, El Salvador",
+        "latitud": 13.696653,
+        "longitud": -88.937017,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0017",
+      "empleado_id": "EMP017",
+      "fecha": "2026-06-21",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 5,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "Me siento valorado por mi equipo y tengo claridad sobre mis objetivos.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED010",
+        "pais": "El Salvador",
+        "departamento": "Chalatenango",
+        "municipio": "Chalatenango Sur",
+        "distrito": "Chalatenango",
+        "direccion_referencia": "Centro de Chalatenango, Chalatenango, El Salvador",
+        "latitud": 14.040696,
+        "longitud": -88.923965,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0018",
+      "empleado_id": "EMP018",
+      "fecha": "2026-06-14",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 3,
+        "relacion_con_jefatura": 3,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "El trabajo es estable, aunque sería útil mejorar la comunicación interna.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED011",
+        "pais": "El Salvador",
+        "departamento": "San Vicente",
+        "municipio": "San Vicente Sur",
+        "distrito": "San Vicente",
+        "direccion_referencia": "Centro de San Vicente, San Vicente, El Salvador",
+        "latitud": 13.6469,
+        "longitud": -88.785285,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0019",
+      "empleado_id": "EMP019",
+      "fecha": "2026-06-11",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 2,
+        "relacion_con_jefatura": 1,
+        "reconocimiento": 0,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 1
+      },
+      "comentario_abierto": "La carga de trabajo es alta y siento poco reconocimiento.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED012",
+        "pais": "El Salvador",
+        "departamento": "La Unión",
+        "municipio": "La Unión Sur",
+        "distrito": "La Unión",
+        "direccion_referencia": "Centro de La Unión, La Unión, El Salvador",
+        "latitud": 13.363708,
+        "longitud": -87.818538,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0020",
+      "empleado_id": "EMP020",
+      "fecha": "2026-06-21",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 3,
+        "relacion_con_jefatura": 2,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 3
+      },
+      "comentario_abierto": "Cumplo mis funciones, pero necesito mayor claridad en algunas prioridades.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED013",
+        "pais": "El Salvador",
+        "departamento": "Cabañas",
+        "municipio": "Cabañas Oeste",
+        "distrito": "Ilobasco",
+        "direccion_referencia": "Centro de Ilobasco, Cabañas, El Salvador",
+        "latitud": 13.841513,
+        "longitud": -88.837884,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0021",
+      "empleado_id": "EMP021",
+      "fecha": "2026-06-12",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 3,
+        "relacion_con_jefatura": 2,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 3
+      },
+      "comentario_abierto": "El trabajo es estable, aunque sería útil mejorar la comunicación interna.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED014",
+        "pais": "El Salvador",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad Costa",
+        "distrito": "La Libertad",
+        "direccion_referencia": "Centro de La Libertad, La Libertad, El Salvador",
+        "latitud": 13.490562,
+        "longitud": -89.325545,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0022",
+      "empleado_id": "EMP022",
+      "fecha": "2026-06-18",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "Tengo oportunidades de aprendizaje y deseo continuar en la organización.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED015",
+        "pais": "El Salvador",
+        "departamento": "Morazán",
+        "municipio": "Morazán Sur",
+        "distrito": "San Francisco Gotera",
+        "direccion_referencia": "Centro de San Francisco Gotera, Morazán, El Salvador",
+        "latitud": 13.704887,
+        "longitud": -88.090464,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0023",
+      "empleado_id": "EMP023",
+      "fecha": "2026-06-19",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "Me siento valorado por mi equipo y tengo claridad sobre mis objetivos.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED001",
+        "pais": "El Salvador",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador Centro",
+        "distrito": "San Salvador",
+        "direccion_referencia": "Centro de San Salvador, San Salvador, El Salvador",
+        "latitud": null,
+        "longitud": null,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0024",
+      "empleado_id": "EMP024",
+      "fecha": "2026-06-12",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 5,
+        "balance_vida_trabajo": 4,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "La comunicación con mi jefatura es buena y recibo reconocimiento.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED002",
+        "pais": "El Salvador",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad Sur",
+        "distrito": "Santa Tecla",
+        "direccion_referencia": "Centro de Santa Tecla, La Libertad, El Salvador",
+        "latitud": 13.672012,
+        "longitud": -89.278798,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0025",
+      "empleado_id": "EMP025",
+      "fecha": "2026-06-07",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED003",
+        "pais": "El Salvador",
+        "departamento": "Santa Ana",
+        "municipio": "Santa Ana Centro",
+        "distrito": "Santa Ana",
+        "direccion_referencia": "Centro de Santa Ana, Santa Ana, El Salvador",
+        "latitud": 13.996842,
+        "longitud": -89.55644,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0026",
+      "empleado_id": "EMP026",
+      "fecha": "2026-06-12",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 4,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "Me siento valorado por mi equipo y tengo claridad sobre mis objetivos.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED004",
+        "pais": "El Salvador",
+        "departamento": "San Miguel",
+        "municipio": "San Miguel Centro",
+        "distrito": "San Miguel",
+        "direccion_referencia": "Centro de San Miguel, San Miguel, El Salvador",
+        "latitud": 13.494632,
+        "longitud": -88.202197,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0027",
+      "empleado_id": "EMP027",
+      "fecha": "2026-06-22",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 6,
+        "relacion_con_jefatura": 2,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 2
+      },
+      "comentario_abierto": "La comunicación con mi jefatura ha afectado mi motivación.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED005",
+        "pais": "El Salvador",
+        "departamento": "Sonsonate",
+        "municipio": "Sonsonate Centro",
+        "distrito": "Sonsonate",
+        "direccion_referencia": "Centro de Sonsonate, Sonsonate, El Salvador",
+        "latitud": 13.72333,
+        "longitud": -89.735511,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0028",
+      "empleado_id": "EMP028",
+      "fecha": "2026-06-21",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 4,
+        "balance_vida_trabajo": 4,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "Me siento valorado por mi equipo y tengo claridad sobre mis objetivos.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED006",
+        "pais": "El Salvador",
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán Centro",
+        "distrito": "Ahuachapán",
+        "direccion_referencia": "Centro de Ahuachapán, Ahuachapán, El Salvador",
+        "latitud": 13.907791,
+        "longitud": -89.842371,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0029",
+      "empleado_id": "EMP029",
+      "fecha": "2026-06-13",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 4,
+        "balance_vida_trabajo": 4,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED007",
+        "pais": "El Salvador",
+        "departamento": "La Paz",
+        "municipio": "La Paz Este",
+        "distrito": "Zacatecoluca",
+        "direccion_referencia": "Centro de Zacatecoluca, La Paz, El Salvador",
+        "latitud": 13.500623,
+        "longitud": -88.859125,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0030",
+      "empleado_id": "EMP030",
+      "fecha": "2026-06-13",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 3
+      },
+      "comentario_abierto": "Cumplo mis funciones, pero necesito mayor claridad en algunas prioridades.",
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED008",
+        "pais": "El Salvador",
+        "departamento": "Usulután",
+        "municipio": "Usulután Este",
+        "distrito": "Usulután",
+        "direccion_referencia": "Centro de Usulután, Usulután, El Salvador",
+        "latitud": 13.353398,
+        "longitud": -88.460904,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0031",
+      "empleado_id": "EMP031",
+      "fecha": "2026-06-12",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 4,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED009",
+        "pais": "El Salvador",
+        "departamento": "Cuscatlán",
+        "municipio": "Cuscatlán Sur",
+        "distrito": "Cojutepeque",
+        "direccion_referencia": "Centro de Cojutepeque, Cuscatlán, El Salvador",
+        "latitud": null,
+        "longitud": null,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0032",
+      "empleado_id": "EMP032",
+      "fecha": "2026-06-09",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 3,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": null,
+      "sentimiento_declarado": "neutral",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED010",
+        "pais": "El Salvador",
+        "departamento": "Chalatenango",
+        "municipio": "Chalatenango Sur",
+        "distrito": "Chalatenango",
+        "direccion_referencia": "Centro de Chalatenango, Chalatenango, El Salvador",
+        "latitud": 14.040347,
+        "longitud": -88.946839,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0033",
+      "empleado_id": "EMP033",
+      "fecha": "2026-06-13",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 4,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 5,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "La comunicación con mi jefatura es buena y recibo reconocimiento.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED011",
+        "pais": "El Salvador",
+        "departamento": "San Vicente",
+        "municipio": "San Vicente Sur",
+        "distrito": "San Vicente",
+        "direccion_referencia": "Centro de San Vicente, San Vicente, El Salvador",
+        "latitud": 13.645139,
+        "longitud": -88.794898,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0034",
+      "empleado_id": "EMP034",
+      "fecha": "2026-06-09",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 2,
+        "relacion_con_jefatura": 2,
+        "reconocimiento": 1,
+        "balance_vida_trabajo": 1,
+        "intencion_de_permanecer": 2
+      },
+      "comentario_abierto": "La comunicación con mi jefatura ha afectado mi motivación.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED012",
+        "pais": "El Salvador",
+        "departamento": "La Unión",
+        "municipio": "La Unión Sur",
+        "distrito": "La Unión",
+        "direccion_referencia": "Centro de La Unión, La Unión, El Salvador",
+        "latitud": 13.327099,
+        "longitud": -87.82808,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0035",
+      "empleado_id": "EMP035",
+      "fecha": "2026-06-01",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "La comunicación con mi jefatura es buena y recibo reconocimiento.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED013",
+        "pais": "El Salvador",
+        "departamento": "Cabañas",
+        "municipio": "Cabañas Oeste",
+        "distrito": "Ilobasco",
+        "direccion_referencia": "Centro de Ilobasco, Cabañas, El Salvador",
+        "latitud": 13.834069,
+        "longitud": -88.854895,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0036",
+      "empleado_id": "EMP036",
+      "fecha": "2026-06-16",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 4,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "Me siento valorado por mi equipo y tengo claridad sobre mis objetivos.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED014",
+        "pais": "El Salvador",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad Costa",
+        "distrito": "La Libertad",
+        "direccion_referencia": "Centro de La Libertad, La Libertad, El Salvador",
+        "latitud": 13.502705,
+        "longitud": -89.318777,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0037",
+      "empleado_id": "EMP037",
+      "fecha": "2026-06-18",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 5,
+        "reconocimiento": 4,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 5
+      },
+      "comentario_abierto": "Tengo oportunidades de aprendizaje y deseo continuar en la organización.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED015",
+        "pais": "El Salvador",
+        "departamento": "Morazán",
+        "municipio": "Morazán Sur",
+        "distrito": "San Francisco Gotera",
+        "direccion_referencia": "Centro de San Francisco Gotera, Morazán, El Salvador",
+        "latitud": 13.707385,
+        "longitud": -88.089205,
+        "zona": "Oriente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0038",
+      "empleado_id": "EMP038",
+      "fecha": "2026-06-06",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 5,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED001",
+        "pais": "El Salvador",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador Centro",
+        "distrito": "San Salvador",
+        "direccion_referencia": "Centro de San Salvador, San Salvador, El Salvador",
+        "latitud": null,
+        "longitud": null,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0039",
+      "empleado_id": "EMP039",
+      "fecha": "2026-06-24",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 1,
+        "relacion_con_jefatura": 3,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 2,
+        "intencion_de_permanecer": 2
+      },
+      "comentario_abierto": "No tengo claridad sobre mis posibilidades de crecimiento.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED002",
+        "pais": "El Salvador",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad Sur",
+        "distrito": "Santa Tecla",
+        "direccion_referencia": "Centro de Santa Tecla, La Libertad, El Salvador",
+        "latitud": 13.683037,
+        "longitud": -89.295484,
+        "zona": "Centro"
+      }
+    },
+    {
+      "encuesta_id": "ENC0040",
+      "empleado_id": "EMP040",
+      "fecha": "2026-06-14",
+      "canal": "Correo",
+      "respuestas": {
+        "satisfaccion_laboral": 5,
+        "relacion_con_jefatura": 4,
+        "reconocimiento": 3,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 4
+      },
+      "comentario_abierto": "El ambiente laboral facilita mi productividad y colaboración.",
+      "sentimiento_declarado": "positivo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED003",
+        "pais": "El Salvador",
+        "departamento": "Santa Ana",
+        "municipio": "Santa Ana Centro",
+        "distrito": "Santa Ana",
+        "direccion_referencia": "Centro de Santa Ana, Santa Ana, El Salvador",
+        "latitud": 13.982289,
+        "longitud": -89.566546,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0006",
+      "empleado_id": "EMP006",
+      "fecha": "2026-06-17",
+      "canal": "Portal interno",
+      "respuestas": {
+        "satisfaccion_laboral": 1,
+        "relacion_con_jefatura": 1,
+        "reconocimiento": 2,
+        "balance_vida_trabajo": 1,
+        "intencion_de_permanecer": 2
+      },
+      "comentario_abierto": "No tengo claridad sobre mis posibilidades de crecimiento.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED003",
+        "pais": "El Salvador",
+        "departamento": "Santa Ana",
+        "municipio": "Santa Ana Centro",
+        "distrito": "Santa Ana",
+        "direccion_referencia": "Centro de Santa Ana, Santa Ana, El Salvador",
+        "latitud": 13.993156,
+        "longitud": -89.567812,
+        "zona": "Occidente"
+      }
+    },
+    {
+      "encuesta_id": "ENC0041",
+      "empleado_id": "EMP019",
+      "fecha": "2026-06-11",
+      "canal": "Aplicación móvil",
+      "respuestas": {
+        "satisfaccion_laboral": 3,
+        "relacion_con_jefatura": 1,
+        "reconocimiento": 0,
+        "balance_vida_trabajo": 3,
+        "intencion_de_permanecer": 1
+      },
+      "comentario_abierto": "Registro corregido después de validación de la encuesta.",
+      "sentimiento_declarado": "negativo",
+      "anonimizada": true,
+      "ubicacion_laboral": {
+        "sede_codigo": "SED012",
+        "pais": "El Salvador",
+        "departamento": "La Unión",
+        "municipio": "La Unión Sur",
+        "distrito": "La Unión",
+        "direccion_referencia": "Centro de La Unión, La Unión, El Salvador",
+        "latitud": 13.363708,
+        "longitud": -87.818538,
+        "zona": "Oriente"
+      }
+    }
+  ]
+}
