@@ -1,0 +1,16 @@
+﻿sede_codigo,nombre_sede,region_id,municipio,zona_geografica,latitud,longitud
+SED001,Sede San Salvador Centro,R10,San Salvador Centro,Centro,13.681363153034257,-89.2264162803837
+SED002,Sede Santa Tecla,R05,La Libertad Sur,Centro,13.661609885702545,-89.2746348755041
+SED003,Sede Santa Ana,R12,Santa Ana Centro,Occidente,14.012322698275009,-89.56819380364355
+SED004,Sede San Miguel,R09,San Miguel Centro,Oriente,,
+SED005,Sede Sonsonate,R13,Sonsonate Centro,Occidente,13.716934677446874,-89.74851303839495
+SED006,Sede Ahuachapán,R01,Ahuachapán Centro,Occidente,13.91967499973191,-89.84355260993883
+SED007,Sede Zacatecoluca,R06,La Paz Este,Centro,,
+SED008,Sede Usulután,R14,Usulután Este,Oriente,13.345474509069776,-88.45282240557
+SED009,Sede Cojutepeque,R04,Cuscatlán Sur,Centro,13.696653321766826,-88.9370173953276
+SED010,Sede Chalatenango,R03,Chalatenango Sur,Centro,14.040695546925145,-88.92396514760058
+SED011,Sede San Vicente,R11,San Vicente Sur,Centro,13.646899982742024,-88.78528537064176
+SED012,Sede La Unión,R07,La Unión Sur,Oriente,13.363708451052572,-87.81853845350217
+SED013,Sede Ilobasco,R02,Cabañas Oeste,Centro,13.841512785282244,-88.83788439240793
+SED014,Sede La Libertad Costa,R05,La Libertad Costa,Centro,13.490562015418709,-89.3255450978144
+SED015,Sede San Francisco Gotera,R08,Morazán Sur,Oriente,13.70488651114564,-88.0904643185732

@@ -1,0 +1,11 @@
+﻿puesto_id,puesto,nivel_puesto,departamento_id
+P01,Analista Financiero/a,Operativo,D02
+P02,Analista de Datos,Operativo,D05
+P03,Analista de Recursos Humanos,Operativo,D04
+P04,Contador/a,Operativo,D02
+P05,Coordinador/a Comercial,Jefatura,D01
+P06,Desarrollador/a de Software,Operativo,D05
+P07,Ejecutivo/a de Ventas,Operativo,D01
+P08,Jefe/a de Recursos Humanos,Jefatura,D04
+P09,Supervisor/a de Operaciones,Jefatura,D03
+P10,Técnico/a de Operaciones,Operativo,D03
