@@ -1,0 +1,41 @@
+empleado_id,fecha_evaluacion,periodo,departamento,modalidad,riesgo_rotacion,real,prediccion,residuo,error_abs
+EMP001,2026-06-30,2026-Q2,Tecnología,Presencial,Medio,79.61,77.11,2.5,2.5
+EMP002,2026-06-30,2026-Q2,Tecnología,Remota,Bajo,82.31,81.51,0.8,0.8
+EMP003,2026-06-30,2026-Q2,Recursos Humanos,Presencial,Bajo,75.85,76.39,-0.54,0.54
+EMP004,2026-06-30,2026-Q2,Recursos Humanos,Remota,Alto,69.48,76.35,-6.87,6.87
+EMP005,2026-06-30,2026-Q2,Finanzas,Híbrida,Bajo,82.48,80.7,1.78,1.78
+EMP006,2026-06-30,2026-Q2,Finanzas,Presencial,Alto,71.78,79.3,-7.52,7.52
+EMP007,2026-06-30,2026-Q2,Operaciones,Híbrida,Bajo,90.33,85.71,4.62,4.62
+EMP008,2026-06-30,2026-Q2,Operaciones,Híbrida,Bajo,95.6,91.53,4.07,4.07
+EMP009,2026-06-30,2026-Q2,Comercial,Remota,Bajo,84.54,85.9,-1.36,1.36
+EMP010,2026-06-30,2026-Q2,Comercial,Híbrida,Bajo,91.02,85.77,5.25,5.25
+EMP011,2026-06-30,2026-Q2,Tecnología,Remota,Bajo,83.71,79.65,4.06,4.06
+EMP012,2026-06-30,2026-Q2,Tecnología,Remota,Bajo,81.18,82.37,-1.19,1.19
+EMP013,2026-06-30,2026-Q2,Recursos Humanos,Remota,Alto,62.48,72.73,-10.25,10.25
+EMP014,2026-06-30,2026-Q2,Recursos Humanos,Presencial,Bajo,78.47,75.34,3.13,3.13
+EMP015,2026-06-30,2026-Q2,Finanzas,Remota,Bajo,72.27,78.2,-5.93,5.93
+EMP016,2026-06-30,2026-Q2,Finanzas,Remota,Bajo,90.86,87.93,2.93,2.93
+EMP017,2026-06-30,2026-Q2,Operaciones,Híbrida,Bajo,85.15,77.07,8.08,8.08
+EMP018,2026-06-30,2026-Q2,Operaciones,Híbrida,Bajo,81.7,79.4,2.3,2.3
+EMP019,2026-06-30,2026-Q2,Comercial,Remota,Alto,77.08,82.92,-5.84,5.84
+EMP020,2026-06-30,2026-Q2,Comercial,Presencial,Medio,81.93,84.01,-2.08,2.08
+EMP021,2026-06-30,2026-Q2,Tecnología,Híbrida,Medio,75.37,78.8,-3.43,3.43
+EMP022,2026-06-30,2026-Q2,Tecnología,Remota,Bajo,83.8,84.73,-0.93,0.93
+EMP023,2026-06-30,2026-Q2,Recursos Humanos,Híbrida,Bajo,91.29,89.93,1.36,1.36
+EMP024,2026-06-30,2026-Q2,Recursos Humanos,Presencial,Bajo,84.72,82.29,2.43,2.43
+EMP025,2026-06-30,2026-Q2,Finanzas,Remota,Bajo,90.14,83.4,6.74,6.74
+EMP026,2026-06-30,2026-Q2,Finanzas,Presencial,Bajo,85.29,85.31,-0.02,0.02
+EMP027,2026-06-30,2026-Q2,Operaciones,Remota,Medio,68.44,72.33,-3.89,3.89
+EMP028,2026-06-30,2026-Q2,Operaciones,Híbrida,Bajo,85.85,84.64,1.21,1.21
+EMP029,2026-06-30,2026-Q2,Comercial,Presencial,Bajo,88.56,85.68,2.88,2.88
+EMP030,2026-06-30,2026-Q2,Comercial,Presencial,Bajo,71.77,76.06,-4.29,4.29
+EMP031,2026-06-30,2026-Q2,Tecnología,Presencial,Bajo,85.96,78.27,7.69,7.69
+EMP032,2026-06-30,2026-Q2,Tecnología,Híbrida,Bajo,79.23,78.56,0.67,0.67
+EMP033,2026-06-30,2026-Q2,Recursos Humanos,Presencial,Bajo,92.3,89.91,2.39,2.39
+EMP034,2026-06-30,2026-Q2,Recursos Humanos,Híbrida,Alto,77.02,84.66,-7.64,7.64
+EMP035,2026-06-30,2026-Q2,Finanzas,Presencial,Bajo,87.51,86.8,0.71,0.71
+EMP036,2026-06-30,2026-Q2,Finanzas,Híbrida,Bajo,83.3,83.07,0.23,0.23
+EMP037,2026-06-30,2026-Q2,Operaciones,Remota,Bajo,87.39,82.99,4.4,4.4
+EMP038,2026-06-30,2026-Q2,Operaciones,Presencial,Bajo,85.9,85.1,0.8,0.8
+EMP039,2026-06-30,2026-Q2,Comercial,Presencial,Alto,70.61,74.64,-4.03,4.03
+EMP040,2026-06-30,2026-Q2,Comercial,Remota,Bajo,90.91,87.0,3.91,3.91
